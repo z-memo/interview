@@ -53,3 +53,8 @@
 
     [参考](https://www.cnblogs.com/shixiaomiao1122/p/7591556.html)
 
+7. 强缓存&&协商缓存
+
+8. 从浏览器搜索框输入网址到网页呈现发生了什么
+
+    [参考](https://segmentfault.com/a/1190000016612988)

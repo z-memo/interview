@@ -296,3 +296,4 @@
     };
     b.test; // this a { func: 'func' }
     ```
+38. event loop
