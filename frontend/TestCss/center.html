@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>三种方式实现居中</title>
+</head>
+<style>
+    body {
+        margin: 0;
+    }
+
+    .wrapper {
+        height: 100vh;
+        width: 100vw;
+        background: cadetblue;
+    }
+
+    .box {
+        height: 500px;
+        width: 700px;
+        background: #ccf;
+    }
+
+    .position-center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: calc(-700px / 2);
+        margin-top: calc(-500px / 2);
+    }
+
+    .position-transform-center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        /*transform:translate(-350px,-250px);*/
+        transform: translate(-50%, -50%);
+    }
+
+    .flex-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+</style>
+<body>
+<!--<div class="wrapper">-->
+<!--&lt;!&ndash;<div class="box position-center"/>&ndash;&gt;-->
+<!--<div class="box position-transform-center"/>-->
+<!--</div>-->
+<div class="flex-wrapper wrapper">
+    <div class="box"/>
+</div>
+</body>
+</html>

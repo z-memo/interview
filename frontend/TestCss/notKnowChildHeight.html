@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>not know child height</title>
+</head>
+<style>
+    .parent {
+        width: 100vw;
+        height: 100vh;
+        background-color: #ccccff;
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .child {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+        margin: 0 10px;
+        width: 4vw;
+        height: 4vw;
+        background-color: cadetblue;
+    }
+
+    .square2 {
+        margin: 0 10px;
+        width: 100%;
+        padding-bottom: 50%;
+        height: 0;
+        /*如果不写hegith的话，正方形内文字会溢出，溢出的高度正好就是文字所占空间的高度。*/
+        background-color: cornsilk;
+    }
+</style>
+<body>
+<div>
+    <div class="parent">
+        <div class="child">
+            <div class="square2">square2</div>
+            <div class="square2">square2</div>
+        </div>
+        <div class="child">
+            <div class="box"></div>
+            <!--<div class="box"></div>-->
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css weight</title>
+</head>
+<style>
+    .content {
+        width: 100vw;
+        height: 100vh;
+        background-color: #ccccff;
+    }
+
+    .parent {
+        width: 400px;
+        height: 500px;
+        background: #fff;
+    }
+
+    .parent > .child {
+        background: red
+    }
+
+    .child {
+        width: 100px;
+        height: 100px;
+        background-color: cadetblue;
+    }
+
+    .parent > #id-child {
+        background-color: bisque;
+    }
+
+    #id-child {
+        width: 100px;
+        height: 100px;
+        background-color: cadetblue;
+    }
+</style>
+<body>
+<div class="content">
+    <div class="parent">
+        <div class="child"></div>
+        <div id="id-child"></div>
+    </div>
+    <div class="child"></div>
+    <br/>
+    <div id="id-child"></div>
+</div>
+</body>
+</html>
