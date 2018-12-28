@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>margin 重叠</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .divout {
+        width: 100px;
+        height: 100px;
+        background: yellow;
+        margin-bottom: 50px;
+        border: 1px solid black;
+    }
+
+    .divout1 {
+        width: 50px;
+        height: 50px;
+        background: yellow;
+        margin-top: 80px;
+        /*float:left;*/
+        /*position:absolute;*/
+        border: 1px solid black;
+    }
+
+    #parrent {
+        width: 300px;
+        height: 150px;
+        margin-top: 20px;
+        background: teal;
+    }
+
+    #box1 {
+        width: 100px;
+        height: 100px;
+        background: aqua;
+        margin: 100px 0;
+    }
+</style>
+<body>
+<div>情景一</div>
+<div class="divout">
+</div>
+<div class="divout1">
+</div>
+<div>情景二</div>
+<div id="parrent">
+    <div id="box1">
+        我是box1
+    </div>
+    我是内容
+</div>
+</body>
+</html>

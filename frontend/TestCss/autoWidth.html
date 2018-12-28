@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>autoWidth</title>
+</head>
+<style>
+    body{
+        margin: 0;
+    }
+    .page{
+        display: flex;
+    }
+    .know-width{
+        width: 100px;
+        height:100px;
+        background-color: #ccccff;
+        flex-shrink: 0;
+    }
+    .auto-width{
+        width: 100%;
+        /*width: 100vw;!* 如果设定100vw or 100%,那么know-width设定flex-shrink:为0，取消缩放*!*/
+        height:100px;
+        background-color: cadetblue;
+    }
+    .page2{
+        margin-top: 20px;
+        position: relative;
+    }
+    .know-width2{
+        width: 100px;
+        height:100px;
+        background-color: #ccccff;
+    }
+    .auto-width2{
+        position: absolute;
+        left: 100px;
+        top: 0;
+        width:calc(100% - 100px);
+        height:100px;
+        background-color: cadetblue;
+    }
+</style>
+<body>
+<div>
+    <div class="page">
+        <div class="know-width"></div>
+        <div class="auto-width"></div>
+    </div>
+    <div class="page2">
+        <div class="know-width2"></div>
+        <div class="auto-width2"></div>
+    </div>
+</div>
+</body>
+</html>
