@@ -297,3 +297,5 @@
     b.test; // this a { func: 'func' }
     ```
 38. event loop
+
+39. 重绘与回流
