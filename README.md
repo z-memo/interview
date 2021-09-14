@@ -7,6 +7,7 @@
 ### 题目：
 
 - 面试题：https://github.com/Advanced-Frontend/Daily-Interview-Question/issues
+- 面试题：https://juejin.cn/post/6996841019094335519
 
 - 面试题： https://bytedance.feishu.cn/base/app8Ok6k9qafpMkgyRbfgxeEnet?table=tblzZHf2Ix3YtxPM&view=vew9iquA45
 
