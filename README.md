@@ -3,6 +3,7 @@
 1. https://juejin.cn/post/6947860760840110088
 2. https://juejin.cn/post/6844904116339261447
 3. https://mp.weixin.qq.com/s/ykLdtK4MBeObYYoKSYm63A
+4. 必备： https://vue3js.cn/interview/
 
 ### 题目：
 
