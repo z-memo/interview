@@ -37,4 +37,6 @@
 
 - [开源的面试资料](https://github.com/yanyue404/blog/issues/157)
 
+- [如何谈薪资](https://www.bilibili.com/video/BV1ou411f7R4)
+
 
