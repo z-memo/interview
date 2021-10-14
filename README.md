@@ -15,6 +15,7 @@
 - **面试题**: https://q.shanyue.tech/interview.html
 - JS手写题：https://juejin.cn/post/6963167124881670152
 - React 面试题：https://youngjuning.js.org/react-interview/
+  - [React 灵魂 23 问](https://zhuanlan.zhihu.com/p/304213203)
 - Diff算法：https://juejin.cn/post/7000266544181674014
 - Nodejs 篇：https://github.com/a1029563229/InterviewQuestions
 
