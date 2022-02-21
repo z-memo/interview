@@ -41,4 +41,5 @@
 
 - [如何谈薪资](https://www.bilibili.com/video/BV1ou411f7R4)
 
+- [技术面试最后反问面试官的话](https://github.com/yifeikong/reverse-interview-zh)
 
