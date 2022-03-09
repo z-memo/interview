@@ -5,6 +5,7 @@
 3. https://mp.weixin.qq.com/s/ykLdtK4MBeObYYoKSYm63A
 4. 必备： https://vue3js.cn/interview/
 5. 必看：https://juejin.cn/post/7061588533214969892
+6. https://github.com/hzfe/awesome-interview
 
 ### 题目：
 
